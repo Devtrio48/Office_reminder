@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        />
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/reg_email"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:background="@drawable/field"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:textAlignment="center"
+        android:background="@drawable/field"
+        android:id="@+id/reg_password"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:textSize="19dp"
+        android:background="@drawable/btn_round"
+        android:stateListAnimator="@null"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an Account"
+            />
+        <Button
+            android:id="@+id/login_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Login here"
+            android:textColor="#DD2C00"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+</LinearLayout>
