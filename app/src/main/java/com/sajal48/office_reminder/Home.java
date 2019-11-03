@@ -50,6 +50,7 @@ public class Home extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        //by sajal
     }
 
     @Override
