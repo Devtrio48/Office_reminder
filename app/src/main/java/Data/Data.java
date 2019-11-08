@@ -11,6 +11,7 @@ public class Data {
         this.note = note;
         this.date = date;
         this.id = id;
+        //hello
     }
 
     public String getTitle() {
